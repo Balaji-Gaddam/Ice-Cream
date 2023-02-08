@@ -1,0 +1,105 @@
+.items-card {
+  padding-top: 10px;
+  display: flex;
+}
+.Items-image {
+  width: 60%;
+  padding-top: 5px;
+}
+.Item-Total {
+  display: flex;
+  justify-content: space-between;
+  padding: 9rem 8rem;
+}
+.Item-text {
+  padding: 9rem 7rem;
+}
+
+.Item-text h1 {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 4rem;
+  text-decoration: underline;
+  padding-left: 5rem;
+  font-family: NeutraTextTF-Bold !important;
+}
+.Item-text p {
+  font-size: 20px !important;
+  font-family: NeutraText-Demi !important;
+  font-style: normal !important;
+  text-align: left;
+  color: #3a3a3a !important;
+  padding: 50px 80px 80px 50px;
+  line-height: 1.6;
+}
+.Items-text1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  flex-wrap: wrap;
+  margin-left: 1rem;
+}
+.Items-text1 a {
+  text-decoration: underline;
+  font-family: NeutraText-Demi !important;
+  padding-top: 30px;
+  color: #38598b;
+}
+.Items-text1 a:hover {
+  color: goldenrod;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+}
+.Item-text a {
+  letter-spacing: 4px;
+  font-family: NeutraText-Demi !important;
+  padding: 15px 40px;
+  border-radius: 2px;
+  font-size: 16px;
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 12px;
+  transition: 0.3s;
+  background: #51659c;
+  color: #fff;
+  outline: 1px solid #333333;
+  outline-color: #333;
+  outline-offset: 2px;
+  float: none;
+  margin-top: 40px;
+  text-decoration: none;
+  letter-spacing: 6px;
+}
+.Item-text a:hover {
+  background: #ffff;
+  color: #51659c;
+  transition: 0.4s ease-in;
+}
+
+@media screen and (max-width: 850px) {
+  .Item-Total {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: justify;
+    align-items: center;
+    padding: 15px;
+  }
+  .Item-text {
+    padding: 0px;
+  }
+  .Item-text h1 {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: NeutraTextTF-Bold !important;
+    padding: 0px;
+  }
+  .Item-text p {
+    text-align: justify;
+    padding: 0px;
+  }
+}

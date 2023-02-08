@@ -1,0 +1,54 @@
+.hero-about {
+  width: 100%;
+  height: 60vh;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.hero-about .HeroText {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+}
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 6rem;
+}
+.about-text {
+  width: 50%;
+}
+.about-image {
+  width: 50%;
+}
+.about-text h1 {
+  font-size: 3rem;
+  text-decoration: underline;
+  margin-top: 6rem;
+  display: flex;
+  padding-left: 3rem;
+}
+.about-container {
+  background-color: whitesmoke;
+}
+.about-text p {
+  text-align: justify;
+  margin-top: 2rem;
+  font-family: NeutraText-Book;
+  font-size: 20px;
+  padding-left: 3rem;
+}
+@media screen and (max-width: 855px) {
+  .about-container {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 4rem 2rem;
+  }
+  .about-text p {
+    text-align: justify;
+    margin-top: 2rem;
+  }
+  .about-text h1 {
+    font-size: 2rem;
+  }
+}

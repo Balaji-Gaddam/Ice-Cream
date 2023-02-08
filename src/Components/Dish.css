@@ -1,0 +1,38 @@
+.Dish-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin-top: 70px;
+  cursor: pointer;
+}
+.Dish-card img {
+  width: 80%;
+}
+
+.Dish {
+  margin-top: 50px;
+  font-family: NeutraText-Demi !important;
+}
+.Dish p {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+.Dish h2 {
+  margin-top: 40px;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 750px) {
+  .Dish-card {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 70px;
+  }
+  .Dish h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+}
